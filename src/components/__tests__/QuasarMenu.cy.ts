@@ -1,4 +1,4 @@
-import QuasarMenu from '../QuasarMenu.vue';
+import QuasarMenu from './demo/QuasarMenu.vue';
 
 describe('QuasarMenu', () => {
   it('click an item by content', () => {

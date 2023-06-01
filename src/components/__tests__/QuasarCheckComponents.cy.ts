@@ -1,4 +1,4 @@
-import QuasarCheckComponents from '../QuasarCheckComponents.vue';
+import QuasarCheckComponents from './demo/QuasarCheckComponents.vue';
 
 describe('QuasarCheckbox', () => {
   it('can be used with normal Cypress commands', () => {

@@ -1,4 +1,4 @@
-import QuasarSelect from '../QuasarSelect.vue';
+import QuasarSelect from './demo/QuasarSelect.vue';
 
 function dataCySelect(dataCyId: string) {
   return cy.dataCy(dataCyId).closest('.q-select');

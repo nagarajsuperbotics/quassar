@@ -1,5 +1,5 @@
 import LayoutContainer from 'app/test/cypress/wrappers/LayoutContainer.vue';
-import QuasarPageSticky from '../QuasarPageSticky.vue';
+import QuasarPageSticky from './demo/QuasarPageSticky.vue';
 
 describe('QuasarPageSticky', () => {
   it('should show a sticky at the bottom-right of the page', () => {

@@ -1,4 +1,4 @@
-import QuasarDate from '../QuasarDate.vue';
+import QuasarDate from './demo/QuasarDate.vue';
 
 const targetDate = '2023/02/23';
 

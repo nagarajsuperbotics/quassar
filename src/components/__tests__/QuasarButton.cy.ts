@@ -1,4 +1,4 @@
-import QuasarButton from '../QuasarButton.vue';
+import QuasarButton from './demo/QuasarButton.vue';
 
 describe('QuasarButton', () => {
   it('renders a message', () => {

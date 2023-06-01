@@ -7,7 +7,7 @@
     </q-toolbar>
   </q-page-sticky>
   <UserItem v-for="user, index in users" :key="'user-' + index" :id="user.id" :first_name="user.first_name"
-    :last_name="user.last_name" :avatar="user.avatar" />
+    :last_name="user.last_name" :email="user.email" :avatar="user.avatar" />
   <q-ajax-bar ref="bar" position="bottom" color="accent" size="10px" skip-hijack />
 </template>
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 import DialogWrapper from 'app/test/cypress/wrappers/DialogWrapper.vue';
-import QuasarDialog from '../QuasarDialog.vue';
+import QuasarDialog from './demo/QuasarDialog.vue';
 
 describe('QuasarDialog', () => {
   it('should show a dialog with a message', () => {
