@@ -5,6 +5,6 @@
 </template>
 
 <script setup lang="ts">
-import UsersList from 'src/components/UsersList.vue';
+import UsersList from 'src/components/UsersList/UsersList.vue';
 
 </script>

@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import { api } from 'src/boot/axios';
 import { ref, onMounted, onUpdated } from 'vue';
-import UserItem from './UserItem.vue';
+import UserItem from '../usersItem/UserItem.vue';
 
 const users = ref();
 const bar = ref();
